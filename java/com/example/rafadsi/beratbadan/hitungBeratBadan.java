@@ -15,8 +15,9 @@ public class hitungBeratBadan extends AppCompatActivity {
         setContentView(R.layout.activity_hitung_berat_badan);
     }
 
-    public void hitungBerat(View arg0){
-        EditText nilaiBerat = (EditText)findViewById(R.id.beratBadan);
+    //Ini button onclick
+    public void hitungBerat(View arg0){   
+        EditText nilaiBerat = (EditText)findViewById(R.id.beratBadan); //sesuaikan sama id nya
         EditText nilaiTinggi = (EditText)findViewById(R.id.tinggiBadan);
         TextView textHasil = (TextView)findViewById(R.id.textHasil);
 
