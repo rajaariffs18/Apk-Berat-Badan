@@ -46,7 +46,8 @@ public class hitungBeratBadan extends AppCompatActivity {
             textHasil.setText("Hasil tidak ditemukan");
         }
     }
-
+    
+    //Ini button kembali
     public void kembali(View v){
         //Intent go = new Intent(getApplicationContext(),MainActivity.class);
         //startActivity(go);
